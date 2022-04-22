@@ -46,7 +46,8 @@ app.use(bodyParser.json());
 const webauthn = new Webauthn({
   // origin: "https://tranquil-reaches-89447.herokuapp.com",
   // origin: "http://localhost:3000",
-  origin: "https://wenauthnpoc.herokuapp.com",
+  // origin: "https://wenauthnpoc.herokuapp.com",
+   origin: "https://trialwebauthn.herokuapp.com", 
   usernameField: "username",
   userFields: {
     username: "username",
