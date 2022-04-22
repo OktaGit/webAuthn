@@ -1,0 +1,43 @@
+.navbar-wrapper {
+  border-bottom: 1px solid black;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+.container-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+.text-field-default {
+  margin-bottom: 20px;
+}
+
+.checkbox-class {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.checkbox-class2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.MuiCheckbox-root {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px !important;
+  font-size: 28px !important;
+}
+.highlight-policy {
+  color: blue;
+  letter-spacing: 0px;
+  line-height: 22px;
+}
+
+.central-row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

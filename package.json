@@ -1,0 +1,60 @@
+{
+  "name": "webauthn-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@datadog/browser-rum": "^4.6.1",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@fidm/x509": "^1.2.1",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/material": "^5.5.0",
+    "base64url": "^3.0.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "cbor": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "install": "^0.13.0",
+    "iso-3166-1": "^1.1.0",
+    "level": "^5.0.1",
+    "lodash": "^4.17.11",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "3.0.0",
+    "webauthn": "^0.1.2"
+  },
+  "scripts": {
+    "heroku-prebuild": "npm install -g serve",
+    "devstart": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+    
+  },
+  
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "sass": "^1.49.9"
+  }
+}

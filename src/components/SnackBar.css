@@ -1,0 +1,21 @@
+.css-1exqwzz-MuiSnackbarContent-message {
+  padding: 0 !important;
+  width: 88%;
+  /* margin-right: 10px; */
+}
+.MuiSnackbarContent-message {
+  width: 90%;
+}
+
+.MuiPaper-elevation {
+  width: 100% !important;
+}
+
+.MuiSnackbar-root {
+  bottom: 0px !important;
+  left: 0px !important;
+  margin-top: 0px !important;
+}
+.MuiSnackbarContent-action {
+  padding-left: 0% !important;
+}

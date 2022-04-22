@@ -1,0 +1,19 @@
+version: "1"
+
+services:
+  backend:
+    build:
+      # context: ./backend
+      dockerfile: ./Dockerfile.backend
+    image: "gl/webauth-backend"
+    ports:
+      - "3000:3000"
+  # frontend:
+  #   build:
+  #     # context: ./client
+  #     dockerfile: ./Dockerfile.front
+  #   image: "gl/webauth-frontend"
+  #   ports:
+  #     - "3001:3001"
+  #   links:
+  #     - "backend:be"
